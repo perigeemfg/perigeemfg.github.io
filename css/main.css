@@ -942,11 +942,13 @@ li {
   margin: 20px auto;
 }
 
-#services .raw, #services .size {
+#services .raw,
+#services .size {
   clear: both;
   font-size: 22px;
   font-family: Arial;
   line-height: 34px;
+  color: #fff;
 }
 
 
