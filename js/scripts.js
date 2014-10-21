@@ -348,21 +348,8 @@ $(document).ready(function(){
 			}
 
 			if(ok){
-
-				$('#contact').fadeOut();
-
-				$.ajax({
-					type: 'POST',
-					url: 'contact-form.php',
-					data: 'name=' + $name.val() + '&email=' + $email.val() + '&budget=' + $budget.val() + '&time=' + $time.val() + '&message=' + $message.val(),
-					success: function(){
-						$('.contactSucces').fadeIn();
-					}
-				});
-
+				$('.contactSucces').fadeIn();
 			}
-
-			return false;
 
 		});
 

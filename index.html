@@ -214,13 +214,13 @@
          </div>
        </div>
        <div class="rightColumn clearfix">
-        <form id="contact">
+        <form id="contact" action="//forms.brace.io/sales@perigeemfg.com">
           <div>
-            <input id="formName" class="focus input" type="text" value="Name *" />
-            <input id="formEmail" class="focus input" type="text" value="E-mail *" />
+            <input id="formName" class="focus input" type="text" value="Name *" name="name"/>
+            <input id="formEmail" class="focus input" type="text" value="E-mail *" name="_replyto" />
           </div>
-          <textarea id="formMessage" class="focusInput">Your message... *</textarea>
-          <input id="formSubmit" type="submit" value=""/>
+          <textarea id="formMessage" class="focusInput" name="body">Your message... *</textarea>
+          <input id="formSubmit" type="submit" value="" name="Submit"/>
         </form>
         <p class="contactSucces">Thanks for sending your message!<br />You will receive an answer as soon as possible..</p>
         <p class="contactError">Please complete all the fields with the correct information!</p>
