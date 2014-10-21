@@ -938,11 +938,11 @@ li {
 }
 
 #services ul {
-  width: 500px;
-  margin: 0 auto;
+  width: 700px;
+  margin: 20px auto;
 }
 
-#services h4 {
+#services .raw, #services .size {
   clear: both;
   font-size: 22px;
   font-family: Arial;
