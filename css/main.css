@@ -937,6 +937,17 @@ li {
 	float:left;
 }
 
+#services ul {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#services h4 {
+  clear: both;
+  font-size: 22px;
+  font-family: Arial;
+  line-height: 34px;
+}
 
 
 
