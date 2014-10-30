@@ -72,7 +72,7 @@ $(document).ready(function(){
 	});
 
 	function doLayers(){
-		$('#home #back').animate({'opacity': 0.5}, 600);
+		$('#home #back').animate({'opacity': 1.0}, 600);
 		$('#home #layer1').css('marginTop', -300).delay(500).animate({'marginTop': 0, 'opacity': 1}, 600, 'easeInQuad');
 		$('#home #layer2').css('marginTop', 200).delay(1000).animate({'marginTop': 0, 'opacity': 1}, 400, 'easeInQuad');
 		$('#home #layer3').css('marginTop', 200).delay(1200).animate({'marginTop': 0, 'opacity': 1}, 400, 'easeInQuad');
