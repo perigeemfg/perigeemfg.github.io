@@ -951,7 +951,13 @@ li {
   color: #fff;
 }
 
-
+	/*  Employment */
+#employment {
+	background-color: #abc210;
+	background-image:url(../img/noisepattern.png);
+}
+#employment h4 {
+	color: #727f1b;
 
 
 	/*  Contact Us */
