@@ -1106,6 +1106,62 @@ a:focus, input:focus, textarea:focus {
 }
 
 
+	/*  Employment */
+#employment {
+	background-color: #053b94;
+  line-height: 26px;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  color: #CAD8EE;
+}
+#employment h4 {
+	color: #779ee0;
+}
+#employment h4 strong {
+  color: #e5e5e5;
+}
+#employment p {
+  margin-bottom: 20px;
+}
+#employment p strong {
+  color: #fff;
+  font-weight: 700;
+  font-style: italic;
+}
+#employment ul { list-style: disc !important; margin-bottom: 40px; }
+#employment li { list-style: disc !important;}
+#employment .leftColumn h4:first-child {
+  margin-bottom: 325px;
+}
+#employment .leftColumn h4 {
+  color: #fff;
+  font-size: 16px;
+  text-align: right;
+}
+#employment .servicesFooter {
+  clear: both;
+  font-size: 22px;
+  font-family: Arial;
+  line-height: 34px;
+}
+#employment .servicesFooter h4 { font-weight: 400; font-style: italic; }
+.mainMap {
+	float:left;
+}
+
+#employment ul {
+  width: 700px;
+  margin: 20px auto;
+}
+
+#employment .job 1,
+#employment .job 2 {
+  clear: both;
+  font-size: 22px;
+  font-family: Arial;
+  line-height: 34px;
+  color: #fff;
+}
 
 
 
