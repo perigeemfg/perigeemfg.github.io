@@ -368,7 +368,7 @@ a:focus {
 }
 #home #back {
 	width:1920px;
-	top:0;
+	top:-86px;
 	margin-left:-960px;
 }
 #home #layer1 {
